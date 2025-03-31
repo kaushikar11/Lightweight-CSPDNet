@@ -1,0 +1,10 @@
+3_long_blade_rotor
+3_short_blade_rotor_1
+3_short_blade_rotor_2
+Bird
+Bird+mini-helicopter_1
+Bird+mini-helicopter_2
+RC plane_1
+RC plane_2
+drone_1
+drone_2

@@ -1,0 +1,136 @@
+{
+    "accuracy": 97.94661190965093,
+    "inference_time": 4.050708770751953,
+    "avg_time_per_sample_ms": 8.317677147334605,
+    "batch_times": {
+        "avg_ms": 14.21840488910675,
+        "std_ms": 6.361334891920728,
+        "min_ms": 5.484342575073242,
+        "max_ms": 28.644561767578125
+    },
+    "class_accuracies": {
+        "3_long_blade_rotor": 98.76543209876543,
+        "3_short_blade_rotor_1": 95.0,
+        "3_short_blade_rotor_2": 90.0,
+        "Bird": 100.0,
+        "Bird+mini-helicopter_1": 92.85714285714286,
+        "Bird+mini-helicopter_2": 100.0,
+        "RC plane_1": 100.0,
+        "RC plane_2": 100.0,
+        "drone_1": 100.0,
+        "drone_2": 100.0
+    },
+    "roc_auc": {
+        "3_long_blade_rotor": 0.9989965334792922,
+        "3_short_blade_rotor_1": 0.997427293064877,
+        "3_short_blade_rotor_2": 0.9970357941834451,
+        "Bird": 1.0,
+        "Bird+mini-helicopter_1": 0.998876404494382,
+        "Bird+mini-helicopter_2": 0.9994407158836689,
+        "RC plane_1": 1.0,
+        "RC plane_2": 1.0,
+        "drone_1": 1.0,
+        "drone_2": 1.0
+    },
+    "avg_precision": {
+        "3_long_blade_rotor": 0.4640995576840306,
+        "3_short_blade_rotor_1": 0.28555296603304364,
+        "3_short_blade_rotor_2": 0.2856744044898825,
+        "Bird": 0.4579013363656975,
+        "Bird+mini-helicopter_1": 0.2970966351559527,
+        "Bird+mini-helicopter_2": 0.28739810667589233,
+        "RC plane_1": 0.2879477944037854,
+        "RC plane_2": 0.2879477944037854,
+        "drone_1": 0.2879477944037854,
+        "drone_2": 0.30662490850651364
+    },
+    "classification_metrics": {
+        "overall": {
+            "accuracy": 97.94661190965093,
+            "precision": 0.9800919141969512,
+            "recall": 0.9794661190965093,
+            "f1": 0.9793745947909724
+        },
+        "per_class": {
+            "3_long_blade_rotor": {
+                "precision": 0.963855421686747,
+                "recall": 0.9876543209876543,
+                "f1": 0.975609756097561,
+                "auc": 0.9989965334792922,
+                "avg_precision": 0.4640995576840306
+            },
+            "3_short_blade_rotor_1": {
+                "precision": 0.926829268292683,
+                "recall": 0.95,
+                "f1": 0.9382716049382716,
+                "auc": 0.997427293064877,
+                "avg_precision": 0.28555296603304364
+            },
+            "3_short_blade_rotor_2": {
+                "precision": 1.0,
+                "recall": 0.9,
+                "f1": 0.9473684210526316,
+                "auc": 0.9970357941834451,
+                "avg_precision": 0.2856744044898825
+            },
+            "Bird": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "auc": 1.0,
+                "avg_precision": 0.4579013363656975
+            },
+            "Bird+mini-helicopter_1": {
+                "precision": 0.975,
+                "recall": 0.9285714285714286,
+                "f1": 0.951219512195122,
+                "auc": 0.998876404494382,
+                "avg_precision": 0.2970966351559527
+            },
+            "Bird+mini-helicopter_2": {
+                "precision": 0.9302325581395349,
+                "recall": 1.0,
+                "f1": 0.963855421686747,
+                "auc": 0.9994407158836689,
+                "avg_precision": 0.28739810667589233
+            },
+            "RC plane_1": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "auc": 1.0,
+                "avg_precision": 0.2879477944037854
+            },
+            "RC plane_2": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "auc": 1.0,
+                "avg_precision": 0.2879477944037854
+            },
+            "drone_1": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "auc": 1.0,
+                "avg_precision": 0.2879477944037854
+            },
+            "drone_2": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "auc": 1.0,
+                "avg_precision": 0.30662490850651364
+            }
+        }
+    },
+    "complexity": {
+        "flops": 36795110,
+        "macs": 18397555,
+        "params": 72878,
+        "inference_time_ms": 3.8637638092041016,
+        "flops_per_param": 504.88638546612145,
+        "time_complexity": "O(N)",
+        "complexity_class": "Linear - O(n)"
+    }
+}
